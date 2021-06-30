@@ -1,15 +1,26 @@
+
+from typing import List
+
+
 class Solution:
-    def isPalindrome(self, x: int) -> bool:
-        value = str(x)
-        reversed_value = value[::-1]
-        for i in range(len(value)):
-            if(value[i] != reversed_value[i]):
-                return False
-        return True
+    def kapsack(self, nums: List[int], k: int) -> int:
+        size = len(nums)
+        maxCapacity = k
+        weights = [False] * (maxCapacity+1)
+        weights[0] = True
+        maxValue = 0
+        for i in range(1, len(nums), 1):
+            temp = nums[i]
+            for j in range(i+1, len(nums), 1):
+                if temp + nums[j] < maxCapacity:
+                    temp += nums[j]
+                    maxValue = temp
+
+        return maxValue
 
 
 if __name__ == '__main__':
-    candidates = [-121, 10, -101, 121]
-    for c in candidates:
-        answer = Solution().isPalindrome(c)
-        print(answer)
+    nums = [1, 3, 5]
+    k = 5
+    test = Solution().kapsack(nums, k)
+    print(test)
