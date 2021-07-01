@@ -5,26 +5,42 @@
 
 
 # this solution is a brute force, which is  n^2 time.
+
+from typing import List
+import datetime
+
+
 class Solution:
     def kapsack(self, nums: List[int], k: int) -> int:
         size = len(nums)
         max_capacity = k
         weights = [False] * (max_capacity+1)
         weights[0] = True
-        potential_max_value = 0
         for i in range(0, len(nums), 1):
             initial_value = nums[i]
             temp = nums[i]
             for j in range(0, len(nums), 1):
-                if (initial_value is not nums[j]) and ((temp + nums[j]) < max_capacity):
+                potential_total = temp + nums[j]
+                if (initial_value is not nums[j]) and ((temp + nums[j]) < max_capacity) and weights[potential_total] is False:
                     temp += nums[j]
-                    potential_max_value = temp
+                    weights[potential_total] = True
 
-        return potential_max_value
+        biggest = 0
+        for index in range(len(weights) - 1, 0, -1):
+            if weights[index] is True:
+                biggest = index
+                break
+
+        return biggest
 
 
 if __name__ == '__main__':
-    nums = [1, 3, 5]
-    k = 7
+    start_time = datetime.datetime.now()
+
+    nums = [9, 3, 5, 7]
+    k = 15
     test = Solution().kapsack(nums, k)
     print(test)
+    end_time = datetime.datetime.now()
+    diff = int((end_time - start_time).total_seconds()*1000)
+    print("Execution time: {} ".format(diff))
