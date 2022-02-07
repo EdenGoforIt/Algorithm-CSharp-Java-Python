@@ -1,0 +1,15 @@
+C:\Users\EdenP\Desktop\Projects\Algorithm\HowManyCarsNeeded\bin\Debug\net6.0\HowManyCarsNeeded.exe
+C:\Users\EdenP\Desktop\Projects\Algorithm\HowManyCarsNeeded\bin\Debug\net6.0\HowManyCarsNeeded.deps.json
+C:\Users\EdenP\Desktop\Projects\Algorithm\HowManyCarsNeeded\bin\Debug\net6.0\HowManyCarsNeeded.runtimeconfig.json
+C:\Users\EdenP\Desktop\Projects\Algorithm\HowManyCarsNeeded\bin\Debug\net6.0\HowManyCarsNeeded.dll
+C:\Users\EdenP\Desktop\Projects\Algorithm\HowManyCarsNeeded\bin\Debug\net6.0\ref\HowManyCarsNeeded.dll
+C:\Users\EdenP\Desktop\Projects\Algorithm\HowManyCarsNeeded\bin\Debug\net6.0\HowManyCarsNeeded.pdb
+C:\Users\EdenP\Desktop\Projects\Algorithm\HowManyCarsNeeded\obj\Debug\net6.0\HowManyCarsNeeded.csproj.AssemblyReference.cache
+C:\Users\EdenP\Desktop\Projects\Algorithm\HowManyCarsNeeded\obj\Debug\net6.0\HowManyCarsNeeded.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EdenP\Desktop\Projects\Algorithm\HowManyCarsNeeded\obj\Debug\net6.0\HowManyCarsNeeded.AssemblyInfoInputs.cache
+C:\Users\EdenP\Desktop\Projects\Algorithm\HowManyCarsNeeded\obj\Debug\net6.0\HowManyCarsNeeded.AssemblyInfo.cs
+C:\Users\EdenP\Desktop\Projects\Algorithm\HowManyCarsNeeded\obj\Debug\net6.0\HowManyCarsNeeded.csproj.CoreCompileInputs.cache
+C:\Users\EdenP\Desktop\Projects\Algorithm\HowManyCarsNeeded\obj\Debug\net6.0\HowManyCarsNeeded.dll
+C:\Users\EdenP\Desktop\Projects\Algorithm\HowManyCarsNeeded\obj\Debug\net6.0\ref\HowManyCarsNeeded.dll
+C:\Users\EdenP\Desktop\Projects\Algorithm\HowManyCarsNeeded\obj\Debug\net6.0\HowManyCarsNeeded.pdb
+C:\Users\EdenP\Desktop\Projects\Algorithm\HowManyCarsNeeded\obj\Debug\net6.0\HowManyCarsNeeded.genruntimeconfig.cache
