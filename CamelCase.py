@@ -12,9 +12,9 @@ def camelCase(s):
 
     if isSplit:
         trimmed = s.replace("()", "")
-        print(process_split_word(trimmed))
+        return (process_split_word(trimmed))
     else:
-        print(process_combine_word(s))
+        return (process_combine_word(s))
 
 
 def process_combine_word(s):
