@@ -23,7 +23,7 @@ def matchingStrings(strings, queries):
         numbers = strings.count(s)
         result.append(numbers)
 
-    print(result)
+    return (result)
 
 
 if __name__ == '__main__':
