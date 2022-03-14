@@ -10,8 +10,10 @@ class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         #first_node will be returned and cur will be used for processing
         first_node = cur = ListNode(0)
+        
         carry = 0
         value = 0
+
         while l1 or l2 or carry:
             value = carry
             if l1:
