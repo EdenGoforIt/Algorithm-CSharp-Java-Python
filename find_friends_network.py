@@ -13,16 +13,18 @@ def find_friend_network(name: str) -> None:
     qu = []
     done = set()
 
-    qu.append(name)
+    qu.append((name, 0))
     done.add(name)
 
     while qu:
-        p = qu.pop()
+        (p, d) = qu.pop()
+        print(p, d)
         for x in fr_info[p]:
             if x not in done:
-                qu.append(x)
+                qu.append((x, d+1))
                 done.add(x)
 
     print(done)
 
-print(find_friend_network('Summer'))
+
+find_friend_network('Summer')
