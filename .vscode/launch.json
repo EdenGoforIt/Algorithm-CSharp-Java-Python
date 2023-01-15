@@ -15,8 +15,6 @@
             "environment": [],
             "console": "externalTerminal"
         },
-     
-
         {
             "name": "Python: Current File",
             "type": "python",
