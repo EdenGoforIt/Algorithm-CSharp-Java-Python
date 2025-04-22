@@ -5,6 +5,10 @@
 - O(1) < O(logn) < O(n) < O(nlogn)
 - it is important to remember that a time complexity is only an estimate of efficiency, because it hides the constant factors; n/2, 2n or 10n.
 
+## Resources
+
+[Leet code pattern](https://seanprashad.com/leetcode-patterns/)
+
 ## time complexity
 
 ```
