@@ -1,0 +1,15 @@
+/Users/edenpark/Desktop/Personal Project/Algorithm-CSharp-Java-Python/Console/bin/Debug/net9.0/Console
+/Users/edenpark/Desktop/Personal Project/Algorithm-CSharp-Java-Python/Console/bin/Debug/net9.0/Console.deps.json
+/Users/edenpark/Desktop/Personal Project/Algorithm-CSharp-Java-Python/Console/bin/Debug/net9.0/Console.runtimeconfig.json
+/Users/edenpark/Desktop/Personal Project/Algorithm-CSharp-Java-Python/Console/bin/Debug/net9.0/Console.dll
+/Users/edenpark/Desktop/Personal Project/Algorithm-CSharp-Java-Python/Console/bin/Debug/net9.0/Console.pdb
+/Users/edenpark/Desktop/Personal Project/Algorithm-CSharp-Java-Python/Console/obj/Debug/net9.0/Console.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edenpark/Desktop/Personal Project/Algorithm-CSharp-Java-Python/Console/obj/Debug/net9.0/Console.AssemblyInfoInputs.cache
+/Users/edenpark/Desktop/Personal Project/Algorithm-CSharp-Java-Python/Console/obj/Debug/net9.0/Console.AssemblyInfo.cs
+/Users/edenpark/Desktop/Personal Project/Algorithm-CSharp-Java-Python/Console/obj/Debug/net9.0/Console.csproj.CoreCompileInputs.cache
+/Users/edenpark/Desktop/Personal Project/Algorithm-CSharp-Java-Python/Console/obj/Debug/net9.0/Console.sourcelink.json
+/Users/edenpark/Desktop/Personal Project/Algorithm-CSharp-Java-Python/Console/obj/Debug/net9.0/Console.dll
+/Users/edenpark/Desktop/Personal Project/Algorithm-CSharp-Java-Python/Console/obj/Debug/net9.0/refint/Console.dll
+/Users/edenpark/Desktop/Personal Project/Algorithm-CSharp-Java-Python/Console/obj/Debug/net9.0/Console.pdb
+/Users/edenpark/Desktop/Personal Project/Algorithm-CSharp-Java-Python/Console/obj/Debug/net9.0/Console.genruntimeconfig.cache
+/Users/edenpark/Desktop/Personal Project/Algorithm-CSharp-Java-Python/Console/obj/Debug/net9.0/ref/Console.dll
