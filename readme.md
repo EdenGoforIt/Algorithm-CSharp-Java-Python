@@ -4,6 +4,10 @@
 
 # Known Issue
 
+## Resources
+
+https://seanprashad.com/leetcode-patterns/
+
 ## When leetcode complains about node not found
 
 ```

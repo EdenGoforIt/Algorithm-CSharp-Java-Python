@@ -5,8 +5,12 @@ namespace Algorithm_CSharp_Java_Python.ConsoleApp;
 
 class Program
 {
-	static void Main(string[] args)
+	const int[] prices = new int[] { 7, 1, 5, 3, 6, 4 };
+	static void Main(string[] args = args)
 	{
-		Console.WriteLine("Hello, World!22");
+
+
+
+		Console.WriteLine($"Hello, World {prices.Length}");
 	}
 }
