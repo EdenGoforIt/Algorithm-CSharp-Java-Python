@@ -25,6 +25,7 @@ class Solution:
 
         # Initialize queue with courses having no prerequisites
         # Common math [0] will be in the queue as it doesn't have any prerequisites
+        # queue -> [0] common math
         queue = deque([i for i in range(numCourses) if in_degree[i] == 0])
         visited = 0
 
