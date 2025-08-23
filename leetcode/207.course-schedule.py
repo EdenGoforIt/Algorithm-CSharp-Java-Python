@@ -11,7 +11,9 @@ from typing import List
 class Solution:
 
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        # Build prerequisite graph
+        # Build a list graph (list type of dictionary)
+        # key is prerequisite and value is the courses.
+        # ex. {0: [1, 2], 1: [], 2: []}
         graph = defaultdict(list)
 
         # Number of prerequisites
@@ -31,9 +33,15 @@ class Solution:
 
         while queue:
             curr = queue.popleft()
+            # As the common math doesn't have prerequisites, it can be visited (take the course) without any issues
             visited += 1
+
+            # For any course that is the next course after the prerequisite
             for neighbor in graph[curr]:
+                # We took the course such as Math 1 and Math 2
+                # those math 1 and math 2 can remove prerequisite by -1
                 in_degree[neighbor] -= 1
+                # If no more prerequisites, add to the queue to take the course.
                 if in_degree[neighbor] == 0:
                     queue.append(neighbor)
 
