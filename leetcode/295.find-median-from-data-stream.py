@@ -11,12 +11,18 @@ class MedianFinder:
 
     def __init__(self):
         # max heap
-
+        # the value of any parent node is always greater than or equal to the value of its child nodes.
         self.small = []
         # min heap
+        #      10
+        #     /   \
+        #   20     30
+        #  /  \    /  \
+        # 40  50  60  70
         self.large = []
 
     def addNum(self, num: int) -> None:
+        # heapq only supports min heap
         if not self.small or num <= -self.small[0]:
             heapq.heappush(self.small, -num)
         else:
