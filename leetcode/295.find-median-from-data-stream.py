@@ -23,8 +23,14 @@ class MedianFinder:
 
     def addNum(self, num: int) -> None:
         # heapq only supports min heap
-        # if
+        # if max heap is empty or num is less than or equal to the largest number in max heap
         if not self.small or num <= -self.small[0]:
+            # we are saving negative values to simulate max heap here.
+            #      -10
+            #     /    \
+            #   -20    -30
+            #  /   \   /   \
+            # -40  -50 -60  -70
             heapq.heappush(self.small, -num)
         else:
             heapq.heappush(self.large, num)
