@@ -23,6 +23,7 @@ class MedianFinder:
 
     def addNum(self, num: int) -> None:
         # heapq only supports min heap
+        # if
         if not self.small or num <= -self.small[0]:
             heapq.heappush(self.small, -num)
         else:
