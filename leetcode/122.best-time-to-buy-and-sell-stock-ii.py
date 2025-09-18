@@ -3,6 +3,7 @@
 #
 # [122] Best Time to Buy and Sell Stock II
 #
+from typing import List
 
 # @lc code=start
 class Solution:
