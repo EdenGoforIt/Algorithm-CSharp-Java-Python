@@ -17,5 +17,4 @@ class Solution:
                 max_profit = price - min_price
         return max_profit
         
-# @lc code=end
-
+# @lc code=end 
