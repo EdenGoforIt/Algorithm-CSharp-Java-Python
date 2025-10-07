@@ -3,7 +3,6 @@
 #
 # [136] Single Number
 #
- 
 
 
 # @lc code=start
@@ -12,8 +11,10 @@ from typing import List
 
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
- 
- 
-        
-# @lc code=end
+        result = 0
+        for num in nums:
+            result ^= num
+        return result
 
+
+# @lc code=end
