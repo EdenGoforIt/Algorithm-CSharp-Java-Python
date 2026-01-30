@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BellmanWormHole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2cc22cdb1c6654f2596e34848d4d2c38328d139")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2391e3a8ae9638360d4bfd520b5f7617bbfe3691")]
 [assembly: System.Reflection.AssemblyProductAttribute("BellmanWormHole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BellmanWormHole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
